@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <h1>Hosting Tester</h1>
       <form>
-        <div>What is your name?</div>
+        <div>Todo...</div>
         <input
           type="text"
           // value={name}
@@ -36,7 +36,7 @@ function App() {
           // value={name}
           // onChange={(e) => setName(e.target.value)}
         />
-        {/* <input type="submit" /> */}
+        <input type="submit" />
         </form>
     </div>
   );
