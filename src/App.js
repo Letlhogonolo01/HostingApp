@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hosting Tester</h1>
+      <h1>Hosting Test</h1>
       <form onSubmit={handleSubmit}>
         <h3>Login</h3>
         <div>
