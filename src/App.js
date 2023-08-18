@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <h1>Hosting Tester</h1>
       <form>
-        <div>Todo...</div>
+        <div>Todo</div>
         <input
           type="text"
           // value={name}
