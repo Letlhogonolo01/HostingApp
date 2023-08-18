@@ -13,14 +13,14 @@ function App() {
   return (
     <div className="App">
       <h1>Hosting Tester</h1>
-      <form >
+      <form>
         <div>What is your name?</div>
         <input
           type="text"
           // value={name}
           // onChange={(e) => setName(e.target.value)}
         />
-        {/* <input type="submit" /> */}
+        <input type="submit" />
       </form>
     </div>
   );
