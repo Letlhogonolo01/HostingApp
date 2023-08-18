@@ -22,12 +22,22 @@ function App() {
         />
         <input type="submit" />
       </form>
+      <form>
       <input
           type="text"
           // value={name}
           // onChange={(e) => setName(e.target.value)}
         />
         <input type="submit" />
+        </form>
+        <form>
+      <input
+          type="text"
+          // value={name}
+          // onChange={(e) => setName(e.target.value)}
+        />
+        {/* <input type="submit" /> */}
+        </form>
     </div>
   );
 }
