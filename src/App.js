@@ -1,26 +1,26 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import { useState } from "react";
+// import { useState } from "react";
 
 function App() {
-  const [name, setName] = useState("");
+  // const [name, setName] = useState("");
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert("My name is " + name);
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   alert("My name is " + name);
+  // };
 
   return (
     <div className="App">
       <h1>Hosting Tester</h1>
-      <form onSubmit={handleSubmit}>
+      <form >
         <div>What is your name?</div>
         <input
           type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
+          // value={name}
+          // onChange={(e) => setName(e.target.value)}
         />
-        <input type="submit" />
+        {/* <input type="submit" /> */}
       </form>
     </div>
   );
