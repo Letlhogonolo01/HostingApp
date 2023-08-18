@@ -22,7 +22,7 @@ function App() {
         />
         <input type="submit" />
       </form>
-      <form>
+      <form onSubmit={handleSubmit}> 
       <input
           type="text"
           value={name}
@@ -30,7 +30,7 @@ function App() {
         />
         <input type="submit" />
         </form>
-        <form>
+        <form onSubmit={handleSubmit}>
       <input
           type="text"
           value={name}
